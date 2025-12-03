@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.featured, .articles, .subscribe {
+    padding: 20px;
+}
+
+.featured-article img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.article-card {
+    background: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.article-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.subscribe {
+    background: #eee;
+    text-align: center;
+    padding: 30px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 250px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
